@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finuntius"
+version = "1.0.0"
+description = "CLI Terminal for real-time financial news via Finnhub API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=13.0.0",
+    "requests>=2.28.0",
+    "python-dotenv>=1.0.0"
+]
+keywords = ["finance", "cli", "news", "finnhub", "stock-market", "terminal"]
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "g-projectech" }
+]
+
+[project.urls]
+Repository = "https://github.com/g-projectech/finuntius"
+
+[project.scripts]
+finuntius = "finuntius.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

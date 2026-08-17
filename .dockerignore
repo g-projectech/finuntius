@@ -1,0 +1,46 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# venv
+venv/
+.venv/
+env/
+
+# Cache Python e artefatti di build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Config - secrets locali
+.env
+*.env
+
+# Editor - OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentazione e asset non necessari a runtime
+assets/
+docs/
+README_guidaFinuntius.md
+*.md
+!README.md
+
+# Test - CI
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.github/
+
+# Output generati a runtime
+*.json
+*.markdown

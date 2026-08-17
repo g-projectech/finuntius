@@ -1,0 +1,27 @@
+# venv
+venv/
+.venv/
+
+# Credenziali e Variabili d'Ambiente
+.env
+
+# cache di .py e Build
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# file di sistema
+.DS_Store
+Thumbs.db
+
+# cache di test/lint
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
