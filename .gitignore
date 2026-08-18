@@ -12,6 +12,7 @@ __pycache__/
 .eggs/
 dist/
 build/
+ignore/
 
 # Editor / IDE
 .vscode/
